@@ -8,7 +8,10 @@
 </head>
 <body>
     <div class="card-container">
-        <div class="card" onclick="this.classList.toggle)'flip')">
+        <div class="card"
+     onclick="this.parentElement.classList.toggle('flip')"
+     ontouchstart="this.parentElement.classList.toggle('flip')">
+
             <div class="card-face front">
                 <h2>Front Side</h2>
                 <p>This is the front side of the card.</p>
@@ -24,10 +27,7 @@
                 <h2>Back Side</h2>
                 <p>This is the back side of the card.</p>
             </div>
-
-
-            
-            
+              
             
 
 
