@@ -26,7 +26,8 @@ body {
     cursor: pointer;
 }
 
-.card-container.flip .card {
+.card-container.flip .card,
+.card-container:hover .card {
     transform: rotateY(180deg);
 }
 
