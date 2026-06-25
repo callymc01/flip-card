@@ -27,8 +27,7 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 
-.card-container.flip .card,
-.card-container:hover .card {
+.card-container.flip .card {
     transform: rotateY(180deg);
 }
 
